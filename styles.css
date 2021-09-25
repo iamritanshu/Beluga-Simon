@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background-image: url(https://media.giphy.com/media/dBZnwwejzgf92kl7tD/giphy.gif);
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  60px 5% 60px 5%;
+  color: #FEF2BF;
+}
+#beluga-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  0 5% 60px 5%;
+  color: #FEF2BF;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  0 5% 60px 5%;
+  color: #FEF2BF;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.fppter{
+  margin: 3% 5%;
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  /*border: 10px solid black;*/
+  border-radius: 50%;
+}
+
+.game-over {
+  background-image: url(https://media.giphy.com/media/5XPb0FvIqylqg/giphy.gif);
+  background-size: cover;
+}
+
+.red {
+  background-color: #EF2F25ed;
+  background-image: url(https://media.giphy.com/media/M8DujrDJDQsla/giphy.gif);
+}
+
+.green {
+  background-color: #66BD55;
+  background-image: url(https://media.giphy.com/media/LSEqyKxyn0Fc0JMWWR/giphy.gif);
+}
+
+.blue {
+  background-color: #25AAEA;
+  background-image: url(https://media.giphy.com/media/l0NwQiTooHUjYZXtm/giphy.gif);
+}
+
+.yellow {
+  background-color: #FAEF38;
+  background-image: url(https://media.giphy.com/media/OGcj5IFtW5PO0/giphy.gif);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
